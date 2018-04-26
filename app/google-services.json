@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1013407025326",
+    "firebase_url": "https://dungeonsanddatastructures.firebaseio.com",
+    "project_id": "dungeonsanddatastructures",
+    "storage_bucket": "dungeonsanddatastructures.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013407025326:android:3851a6a8aa55c004",
+        "android_client_info": {
+          "package_name": "com.example.awesomefat.dungeonsanddatastructuredungeonbuilder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013407025326-308s0fc2eqpn4vjvt4f486sj5bnqi7i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.awesomefat.dungeonsanddatastructuredungeonbuilder",
+            "certificate_hash": "62448d0e0658d2d4979a8d419fc47023d249e44a"
+          }
+        },
+        {
+          "client_id": "1013407025326-ua6b10frceooenrka0r7l1rsb3ok36sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-U3cFJBegY6W9eSVGrUj73AiDUKE_2j4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013407025326-ua6b10frceooenrka0r7l1rsb3ok36sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013407025326:android:9b139fd0ca9ca765",
+        "android_client_info": {
+          "package_name": "com.example.awesomefat.dungeonsanddatastructures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013407025326-23rquus4qpls175gdrlv0g9ct9apnp6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.awesomefat.dungeonsanddatastructures",
+            "certificate_hash": "62448d0e0658d2d4979a8d419fc47023d249e44a"
+          }
+        },
+        {
+          "client_id": "1013407025326-ua6b10frceooenrka0r7l1rsb3ok36sg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-U3cFJBegY6W9eSVGrUj73AiDUKE_2j4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013407025326-ua6b10frceooenrka0r7l1rsb3ok36sg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
