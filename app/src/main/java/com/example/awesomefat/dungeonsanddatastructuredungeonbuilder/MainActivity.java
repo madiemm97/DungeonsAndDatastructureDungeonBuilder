@@ -1,5 +1,7 @@
 package com.example.awesomefat.dungeonsanddatastructuredungeonbuilder;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity
     private Button southButton;
     private Button westButton;
     private Button eastButton;
+    public Button addExitButton;
 
     private Player p;
     private Dungeon csDept;
@@ -43,11 +46,31 @@ public class MainActivity extends AppCompatActivity
         this.southButton = (Button)this.findViewById(R.id.southButton);
         this.eastButton = (Button)this.findViewById(R.id.eastButton);
         this.westButton = (Button)this.findViewById(R.id.westButton);
+        this.addExitButton = (Button)this.findViewById(R.id.addExitButton);
 
         p = new Player("Mike");
         this.buildDungeon();
         //this.csDept.addPlayer(p);
         //this.fillInterface(p.getCurrentRoom());
+    }
+
+    public void onAddExitButtonClicked(View v)
+    {
+
+        final Context context = this;
+        //addExitButton = (Button) findViewById(R.id.addExitButton);
+
+        AppCompatActivity Main2Activity = new AppCompatActivity();
+
+        addExitButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(context, Main2Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public void onExitButtonClicked(View v)

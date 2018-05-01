@@ -1,4 +1,6 @@
 package com.example.awesomefat.dungeonsanddatastructuredungeonbuilder;
+import android.view.View;
+
 import com.google.firebase.database.Exclude;
 
 import java.util.ArrayList;
@@ -60,6 +62,7 @@ public class Room
     {
         this.exits.put(direction, e);
     }
+
 
 
     public boolean takeExit(String direction)
